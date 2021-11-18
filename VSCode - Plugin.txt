@@ -1,0 +1,16 @@
+・Material Icon Theme
+・Trailing Spaces
+・GitLens
+・Visual Studio IntelliCode
+・Evillnspector
+・Todo Tree - コメントアウト Tag: ~コメント内容~
+    コマンド
+     Todo Tree: Add Tag - タグを追加
+     Todo Tree: Remove Tag - タグを削除
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIX",
+        "BUG",
+    ]
+    "todo-tree.highlights.defaultHighlight": {
+    }
