@@ -11,6 +11,147 @@
         "TODO",
         "FIX",
         "BUG",
+        "MEMO",
     ]
-    "todo-tree.highlights.defaultHighlight": {
+     "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "iconColour": "white",
+        "type": "line", // ハイライトされる範囲
+        "foreground": "white",
+        "background": "black",
+        "opacity": 75,  // 透明度
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "iconColour": "orange",
+            "background": "orange",
+        },
+        "FIX": {
+            "iconColour": "green",
+            "background": "green",
+        },
+        "BUG": {
+            "iconColour": "blue",
+            "background": "blue",
+        },
+        "MEMO": {
+            "iconColor": "gray",
+            "background": "gray",
+        }
     }
+・Better Comments - コメントアウト tag: ~コメント内容~
+    "better-comments.multilineComments": true,  // 複数行のコメントにも対応
+    "better-comments.tags" [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false, // 取り消し線
+            "underline": false,
+            "backgroundColor": "transparent",  // 透明・・・transparent
+            "bold": false,
+            "italic": false,
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false, // 取り消し線
+            "underline": false,
+            "backgroundColor": "transparent",  // 透明・・・transparent
+            "bold": false,
+            "italic": false,
+        },
+        {
+            "tag": "*",
+            "color": "#FF2D00",
+            "strikethrough": true, // 取り消し線
+            "underline": false,
+            "backgroundColor": "transparent",  // 透明・・・transparent
+            "bold": false,
+            "italic": false,
+        },
+    ]
+・Auto Rename Tag
+    "auto-rename-tag.activationOnLanguage": ["html", "php", "javascript"]
+・Code Runner
+    コマンド
+     Ctrl + Alt + N - To run code
+     Ctrl + Alt + M - To stop the running code
+     Ctrl + Alt + J - To select language to run
+     Ctrl + Alt + K - To run custom comand
+    "code-runner.executorMap": {
+        // PATH通す
+        "javascript": "",
+        "php": "",
+        "python": "$pythonPath",
+        "java": "",
+        "html": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    }
+・Python Preview
+・Partial Diff - 2つの選択範囲の差分を表示
+    1つ目の選択範囲を選ぶ → Ctrl + 1 → 2つ目の選択範囲を選ぶ
+・HTMLHint
+・IntelliSense for CSS class names in HTML - あらかじめよく使うclassのCSSファイルを作成しておけば、HTML内で補助入力してくれる
+    .clearfix::after
+・HTML CSS Support - HTML上でクラス名やid名を入力するときに、CSSファイルから参照して候補を表示してくれる
+・CSS Peak - HTMLコーディング中にclass名の部分に適応されているCSSをHTMLコード上で表示してくれる
+    Peek - Ctrl + SHift + F12
+    Go to - F12
+・Path Intellisense
+・Live Server
+    コマンド
+     Alt + L, Alt + O - Open the Server
+     Alt + L, ALt + C - Stop the server
+・CSSTree validator
+・Project Manager - 複数のプロジェクトを一括管理してくれる
+    コマンド
+     Save Project - 現在のフォルダー/ワークスペースに新しいプロジェクトとして保存する
+     Edit Project - projects.jsonで各プロジェクトの概要設定
+     List Projects to Open - 全てのプロジェクトの保存/削除をここで選択できる
+     List Projects to Open in New Window - 選択したプロジェクトを新しいウィンドウで開く
+     Filer Projects by Tag - タグごとにお気に入りのプロジェクトをフィルタリングする
+    projects.json
+    [
+        {
+            "name": "",
+            "rootpath": "",
+            "tags": [
+                ,
+            ],
+            "enabled": true,
+        },
+    ]
+・Search/Translate Hero - Google/Translate/Bing/Baidu/Wiki/Yahoo/Github/Npm Engine
+    Ctrl + Enter - Search
+    Ctrl + Shift + Enter - Translate(Switch Language Engineで翻訳言語指定)
+    {
+        "search-online.search-engine": "Google"
+    }
+・Highlight Matching Tag
+・htmltagwrap
+    Alt + W
+・Random Everything - ダミーデータを簡単に作成
+    Int - 1-100
+    Float - 1-100
+    Letters - 5-20文字のランダムな文字列
+    Letters and numbers - 5-20文字のランダムな文字列＆数値
+    Country - ランダムな国名
+    Word - ランダムな単語
+    Text - ランダムな24単語
+    Date - ランダムなISO-8601の日付
+    First Name - ランダムな名前
+    Last Name - ランダムな苗字
+    Full Name - ランダムなフルネーム
+    E-mail - ランダムなメールアドレス
+    Url - ランダムなURLアドレス
+    Hex Color - ランダムな16進カラー指定
+    IPv4 Address - ランダムなIPv4アドレス
+    IPv6 Address - ランダムなIPv6アドレス
+    GUIO - ランダムなGUID
+・Rainbow CSV
+・Git Graph
+
+Ctrl + P - ファイル名検索
+Ctrl + Tab - タブの移動
+Ctrl + Shift + F - 全ファイル検索
+Ctrl + H - 文字列置換
+Ctrl + Shift + H - 全ファイル文字列置換
