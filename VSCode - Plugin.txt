@@ -12,7 +12,7 @@
         "FIX",
         "BUG",
         "MEMO",
-    ]
+    ],
      "todo-tree.highlights.defaultHighlight": {
         "icon": "alert",
         "iconColour": "white",
@@ -38,7 +38,7 @@
             "iconColor": "gray",
             "background": "gray",
         }
-    }
+    },
 ・Better Comments - コメントアウト tag: ~コメント内容~
     "better-comments.multilineComments": true,  // 複数行のコメントにも対応
     "better-comments.tags" [
@@ -69,9 +69,9 @@
             "bold": false,
             "italic": false,
         },
-    ]
+    ],
 ・Auto Rename Tag
-    "auto-rename-tag.activationOnLanguage": ["html", "php", "javascript"]
+    "auto-rename-tag.activationOnLanguage": ["html", "php", "javascript"],
 ・Code Runner
     コマンド
      Ctrl + Alt + N - To run code
@@ -85,7 +85,7 @@
         "python": "$pythonPath",
         "java": "",
         "html": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
-    }
+    },
 ・Python Preview
 ・Partial Diff - 2つの選択範囲の差分を表示
     1つ目の選択範囲を選ぶ → Ctrl + 1 → 2つ目の選択範囲を選ぶ
@@ -130,6 +130,7 @@
 ・htmltagwrap
     Alt + W
 ・Random Everything - ダミーデータを簡単に作成
+    Random + ↓
     Int - 1-100
     Float - 1-100
     Letters - 5-20文字のランダムな文字列
