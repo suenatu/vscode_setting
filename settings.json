@@ -1,0 +1,23 @@
+{
+    "debug.inlineValues": true, //デバッグないに行内に変数値を表示
+    "editor.acceptSuggestionOnEnter": "off", // サジェストをEnterで確定させる（OffのときはTabキーで確定させる）
+    "editor.dragAndDrop": false, // ドラッグ&ドロップで選択範囲のテキストを移動できるようにする
+    "editor.formatOnSave": true, // 入力した行を自動でフォーマット
+    "editor.renderControlCharacters": true, // 制御文字を表示
+    "editor.renderWhitespace": "all", // エディター上での空白文字の表示方法
+    "files.insertFinalNewLine": true, // ファイル保存時に行末に改行を挿入
+    "files.trimFinalNewLines": true, // ファイル保存時に最終行以降の空行を削除
+    "files.trimTrailingWhitespace": true, // ファイル保存時に各行の末尾にある半角スペースを削除
+    "search.showLineNumbers": true, // 検索ビューの検索結果に行数を併記
+    // ファイルを開いたときにプレビューモード（そのままのウィンドウで開く）設定。
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.iconTheme": "material-icon-theme", // VSCodeのファイルアイコンテーマ
+    "workbench.startupEditor": "readme", // 起動時に表示するエディターの指定。READMEが含まれる場合には、それを開き、含まれない場合にはWelcomeページを開く
+    "[html]": {
+        "editor.tabSize": 2,
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+    },
+}
