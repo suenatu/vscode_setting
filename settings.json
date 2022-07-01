@@ -21,3 +21,96 @@
         "editor.tabSize": 2,
     },
 }
+
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.hovers.currentLine.over": "line",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIX",
+        "FIXME",
+        "TODO",
+        "MEMO",
+        "XXX",
+    ],
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "iconColour": "#fff",
+        "type": "line", // ハイライトされる範囲
+        "foreground": "#fff",
+        "background": "#000",
+        "opacity": 75,  // 透明度
+    },
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "icon": "bug",
+            "iconColour": "#00f",
+            "background": "#00f",
+        },
+        "HACK": {
+            "icon": "tools",
+        },
+        "FIXME": {
+            "icon": "flame"
+        },
+        "FIX": {
+            "iconColour": "#008000",
+            "background": "#008000",
+        },
+        "XXX": {
+            "icon": "$(close)"
+        },
+        "TODO": {
+            "iconColour": "#ffa500",
+            "background": "#ffa500",
+        },
+        "MEMO": {
+            "iconColour": "#808080",
+            "background": "#808080",
+        },
+    },
+    "better-comments.multilineComments": true,  // 複数行のコメントにも対応
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+    ],
+    "auto-rename-tag.activationOnLanguage": [
+        "*"
+    ],
+}

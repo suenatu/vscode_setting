@@ -86,11 +86,10 @@
         "java": "",
         "html": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
     },
-・Python Preview
 ・Partial Diff - 2つの選択範囲の差分を表示
     1つ目の選択範囲を選ぶ → Ctrl + 1 → 2つ目の選択範囲を選ぶ
-・HTMLHint
-・IntelliSense for CSS class names in HTML - あらかじめよく使うclassのCSSファイルを作成しておけば、HTML内で補助入力してくれる
+・HTMLHint(カスタマイズ可能なルールに基づき警告を出してくれる、いる？)
+・IntelliSense for CSS class names in HTML - 先にclassを記述したCSSファイルを作成しておけば、HTML内で補助入力してくれる(HTML CSS Support とどちらかでいい？)
     .clearfix::after
 ・HTML CSS Support - HTML上でクラス名やid名を入力するときに、CSSファイルから参照して候補を表示してくれる
 ・CSS Peak - HTMLコーディング中にclass名の部分に適応されているCSSをHTMLコード上で表示してくれる
@@ -101,8 +100,8 @@
     コマンド
      Alt + L, Alt + O - Open the Server
      Alt + L, ALt + C - Stop the server
-・CSSTree validator
-・Project Manager - 複数のプロジェクトを一括管理してくれる
+・CSSTree validator(CSSの構文チェックを行ってくれる、いる？)
+・Project Manager - 複数のプロジェクトを一括管理してくれる(必要になってからでいい)
     コマンド
      Save Project - 現在のフォルダー/ワークスペースに新しいプロジェクトとして保存する
      Edit Project - projects.jsonで各プロジェクトの概要設定
@@ -120,12 +119,6 @@
             "enabled": true,
         },
     ]
-・Search/Translate Hero - Google/Translate/Bing/Baidu/Wiki/Yahoo/Github/Npm Engine
-    Ctrl + Enter - Search
-    Ctrl + Shift + Enter - Translate(Switch Language Engineで翻訳言語指定)
-    {
-        "search-online.search-engine": "Google"
-    }
 ・Highlight Matching Tag
 ・htmltagwrap
     Alt + W
@@ -150,6 +143,17 @@
     GUIO - ランダムなGUID
 ・Rainbow CSV
 ・Git Graph
+・Todo＋
+コマンドパレット
+Open - Todoリスト作成
+Toggle Done - タスク完了(終了＋終了時間を記録)
+Toggle Start - 開始時間記録(@時間が記載されている状態で実行すると、カウントダウン開始)
+Open Embedded - プロジェクト内のEmbeddedをTodo化して表示してくれる
+Group - タスクのグループ作成
+Ctrl + Enter - チェックボックス表示
+@xxx - タグ付け
+@時間 - 実施予定時間を入れる(ex. @3h, @3m, ...)
+
 
 Ctrl + P - ファイル名検索
 Ctrl + Tab - タブの移動
